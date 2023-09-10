@@ -1,0 +1,114 @@
+h1{
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+body{
+  text-align: center;
+    margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+  background-color: #FAF9F6;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+  padding-left: 40px;
+}
+
+header{
+  display: flex;
+  background-color: #FAF9F6;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+
+nav{
+  padding-right: 40px;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 30px;
+  color: black;
+}
+
+input[type="submit"]{
+  background-color: yellow;
+  font-weight: 900;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 150px;
+  margin-bottom: 80px;
+}
+
+input[type="email"]{
+  height: 30px;
+  width: 250px
+}
+
+.container{
+  display: flex;
+  text-align: left;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 40px;
+}
+
+.container h2{
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+
+.container p{
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+iframe{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.choices{
+  border: 1px solid black;
+}
+
+.prices{
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+}
+
+.prices h3{
+  background-color: lightgray;
+}
+
+.prices a{
+  text-decoration: none;
+  color: black;
+  background-color: orange;
+  padding: 10px;
+}
+
+.refs{
+  background-color: lightgray;
+  text-align: right;
+  padding-left: 10px;
+}
+
+@media (max-width:100px){
+  body{
+    background-color: rgb(	250, 249, 246);
+  }
+}
